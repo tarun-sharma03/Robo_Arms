@@ -6,10 +6,10 @@ AF_DCMotor gripper(4);
 
 void setup() 
 {
-  base.setSpeed(150);
+  base.setSpeed(200);
   shoulder.setSpeed(150);
   elbow.setSpeed(150);
-  gripper.setSpeed(150);
+  gripper.setSpeed(100);
   base.run(RELEASE);
   shoulder.run(RELEASE);
   elbow.run(RELEASE);
